@@ -30,7 +30,6 @@ mongoConnection = dbClient(connectionSettings)
 
 ## Sets the collection to `someCollection`
 ```python
-<<<<<<< Updated upstream
 mongoConnection.setTargetCollection('someCollection')
 ```
 
@@ -68,33 +67,3 @@ mongoConnection.removeDoc({"hello": "woorld"}, many=True)
 ```python
 mongoConnection.closeDB()
 ```
-=======
-mongoConnection.setTargetCollection('someCollection')```
-
-## Insert a single document
-```python
-pythonmongoConnection.insertDoc({'hello': 'world'})```
-
-## Read a single document
-```python
-retreivedDoc = mongoConnection.findDoc({'hello': 'world'})```
-
-## Remove a single document
-```python
-mongoConnection.removeDoc(retreivedDoc)```
-
-## Insert multiple documents all at once
-```python
-mongoConnection.insertDoc(docs, many=True)```
-
-## Read multiple documents all at once
-```python
-mongoConnection.findDoc({"hello": "woorld"}, many=True)```
-
-## Remove multiple documents based on a `filter`
-mongoConnection.removeDoc({"hello": "woorld"}, many=True)```
-
-## Close database
-```python
-mongoConnection.closeDB()```
->>>>>>> Stashed changes
