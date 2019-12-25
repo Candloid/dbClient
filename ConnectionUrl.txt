@@ -1,0 +1,1 @@
+mongodb://someUser:somePass@mycluster.node.us-east-1.docdb.amazonaws.com:27017/?clustername=mycluster&node=node&serverlocation=us-east-1&replicaSet=rs0&readPreference=secondaryPreferred&ssl=true&ssl_ca_certs=rds-combined-ca-bundle.pem
